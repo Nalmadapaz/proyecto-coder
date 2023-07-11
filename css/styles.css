@@ -265,19 +265,9 @@ body {
   padding: 22px;
 }
 
-.footer-home {
-  background-color: lightblue;
-  color: yellow;
-  display: flex;
-  padding-right: 5%;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-bottom: 5%;
-}
-
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
   gap: 10px;
   max-width: 100%;
   width: 100%;
@@ -288,6 +278,16 @@ body {
   background-color: #f2f2f2;
   padding: 20px;
   text-align: center;
+  background-color: rgb(18, 18, 207);
+}
+
+.grid-item h2{
+  color: yellow;
+  padding: 10px;
+}
+
+.grid-item p{
+  color: white;
 }
 
 .grid-item img {
@@ -326,19 +326,8 @@ body {
   padding-bottom: 30px;
 }
 
-.footer-home div {
-  display: flex;
-}
-
 .container-articles {
   display: table-row;
-}
-
-.footer {
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 100vh;
 }
 
 .btn-download {
@@ -364,3 +353,67 @@ body {
 .sct-games h2 {
   padding-bottom: 30px;
 }
+
+
+
+
+@media (min-width: 320px) {
+  .menu li a {
+    font-size: 13px;
+  }
+  .logo {
+    width: 150px;
+  }
+  .monedas {
+    width: 222px;
+  }
+
+  .steps-container {
+    width: 80%;
+  }
+
+  .steps-container h1{
+    font-size: 20px;
+  }
+
+  .steps-actions-container h2 {
+    font-size: 20px;
+  }  
+
+  .steps-actions-container {
+    gap: 0;
+  }
+
+  .steps-actions-container p {
+    font-size: 16px;
+  }
+
+  .question-title {
+    font-size: 14px;
+  }
+
+.paragraph {
+  font-size: 12px;
+}
+
+.section-home {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-home h1{
+  font-size: 35px;
+}
+
+.questions{
+  flex-direction: column;
+}
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+
+

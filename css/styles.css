@@ -412,7 +412,17 @@ body {
 }
 
 @media (min-width: 768px) {
+.questions {
+  flex-direction: column;
+}
 
+.paragraph{
+  font-size: 16px;
+}
+
+.question-title {
+  font-size: 18px;
+}
 }
 
 

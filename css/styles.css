@@ -409,6 +409,23 @@ body {
   flex-direction: column;
 }
 
+.sct-about h1{
+  font-size: 14px;
+}
+
+.sct-about h2{
+  font-size: 14px;
+}
+
+.sct-about p{
+  font-size: 13px;
+}
+
+.btn-download {
+  width: 400px;
+  font-size: 30px;
+}
+
 }
 
 @media (min-width: 768px) {
@@ -423,6 +440,29 @@ body {
 .question-title {
   font-size: 18px;
 }
+
+.sct-about h1{
+  font-size: 14px;
+}
+
+.sct-about h2{
+  font-size: 14px;
+}
+
+.sct-about p{
+  font-size: 13px;
+}
+
+
+}
+
+@media (min-width: 1024px) {
+  .menu li a {
+    font-size: 12px;
+  }
+  .logo {
+    width: 150px;
+  }
 }
 
 

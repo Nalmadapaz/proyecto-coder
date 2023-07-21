@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 header,
@@ -51,17 +52,11 @@ body {
 
 .bg-contact {
   background-color: grey;
-  padding-right: 5%;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-bottom: 5%;
+  padding: 5%
 }
 
 .bg-viewed {
-  padding-right: 5%;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-bottom: 5%;
+  padding: 5%
 }
 
 .bg-contact div h2 {
@@ -233,15 +228,11 @@ body {
   margin: 0 auto;
   justify-content: center;
 }
+
 .spins-container div {
   text-align: center;
   max-width: 600px;
   margin: 0 auto;
-}
-
-.spins-container h1 {
-  font: 200px;
-  padding: 22px;
 }
 
 .spins-container div img {
@@ -354,30 +345,64 @@ body {
   padding-bottom: 30px;
 }
 
+.btn-container{
+  width: 60%;
+  margin: 0 auto;
+}
 
 
-
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .menu li a {
-    font-size: 13px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
   }
+
+  .cabecera{
+    width: 100%;
+  }
+
   .logo {
-    width: 150px;
+    width: 75px;
   }
+
+  .accountbadge{
+    width: 50px;
+  }
+
+  .body-container{
+    width: 100%;
+  }
+
+  .cartas{
+    width: 100px;
+  }
+
   .monedas {
-    width: 222px;
+    width: 50px;
   }
+
+  .join-us-today{
+    font-size: 10px;
+    margin-top: 10px;
+  }
+
+.safe-support{
+  display: none;
+}
 
   .steps-container {
     width: 80%;
   }
 
   .steps-container h1{
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .steps-actions-container h2 {
-    font-size: 20px;
+    font-size: 12px;
   }  
 
   .steps-actions-container {
@@ -385,7 +410,39 @@ body {
   }
 
   .steps-actions-container p {
-    font-size: 16px;
+    font-size: 12px;
+  }
+
+  .image-containers{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .spins-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dices{
+    width: 120px;
+  }
+
+  .spins-container div h2{
+    font-size: 15px;
+    padding: 10px
+  }
+
+  .spins-container div p{
+    font-size: 13px;
+  }
+  
+  .questions{
+    flex-direction: column;
+  }
+
+  .bg-questions h2{
+    color: white;
   }
 
   .question-title {
@@ -396,18 +453,23 @@ body {
   font-size: 12px;
 }
 
+.diamond-cards{
+  width: 200px;
+}
+
+.grid-container{
+  grid-template-columns: 1fr;
+}
+
 .section-home {
   display: flex;
   flex-direction: column;
 }
 
-.section-home h1{
+.section-home h2{
   font-size: 35px;
 }
 
-.questions{
-  flex-direction: column;
-}
 
 .sct-about h1{
   font-size: 14px;
@@ -421,14 +483,39 @@ body {
   font-size: 13px;
 }
 
-.btn-download {
-  width: 400px;
-  font-size: 30px;
+.btn-container{
+  width: 60%;
+  margin: 0 auto;
 }
 
 }
 
 @media (min-width: 768px) {
+.menu li a {
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo {
+  width: 75px;
+}
+
+.accountbadge{
+  width: 40px;
+}
+
+.dices{
+  width: 150px;
+}
+
+.spins-container div h2{
+  font-size: 25px;
+  padding: 10px
+}
+
 .questions {
   flex-direction: column;
 }
@@ -441,6 +528,15 @@ body {
   font-size: 18px;
 }
 
+.maquina-slot{
+  width: 250px;
+}
+
+.queen-card{
+  width: 250px;
+}
+
+
 .sct-about h1{
   font-size: 14px;
 }
@@ -453,15 +549,43 @@ body {
   font-size: 13px;
 }
 
-
 }
 
 @media (min-width: 1024px) {
   .menu li a {
     font-size: 12px;
   }
+
   .logo {
-    width: 150px;
+    width: 100px;
+  }
+
+  .monedas{
+    width: 200px;
+  }
+
+  .steps-container {
+    width: 80%;
+  }
+
+  .steps-container h1{
+    font-size: 12px;
+  }
+
+  .steps-actions-container h2 {
+    font-size: 12px;
+  }  
+
+  .steps-actions-container {
+    gap: 0;
+  }
+
+  .steps-actions-container p {
+    font-size: 12px;
+  }
+
+  .bg-questions h2{
+    color: white;
   }
 }
 

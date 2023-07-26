@@ -1,0 +1,539 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: block;
+}
+
+section {
+  display: block;
+}
+
+footer {
+  display: block;
+}
+
+aside {
+  display: block;
+}
+
+nav {
+  display: block;
+}
+
+article {
+  display: block;
+}
+
+hgroup {
+  display: block;
+}
+
+body {
+  text-align: center;
+}
+
+.header-menu {
+  width: 100%;
+  border: none;
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-container {
+  background-color: white;
+}
+
+.dealcards {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.background-container {
+  background-color: white;
+}
+
+.background-contact {
+  background-color: white;
+}
+
+.background-games {
+  background-color: #999999;
+}
+
+.bg-contact {
+  background-color: grey;
+  padding: 5%;
+}
+.bg-contact div h2 {
+  padding-bottom: 30px;
+}
+
+.bg-viewed {
+  padding: 5%;
+}
+
+.background-section-games {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.background-section-games div h2 {
+  padding-bottom: 30px;
+}
+
+.cabecera {
+  background: orange;
+  border: 1px solid #999999;
+  padding: 20px;
+}
+.cabecera h1 {
+  text-align: left;
+}
+
+.menu {
+  background: orange;
+  padding: 5px 15px;
+  text-align: center;
+}
+.menu li {
+  list-style: none;
+  padding: 5px;
+  font: bold 14px verdana;
+  display: inline-block;
+}
+.menu li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin: 0px 22px;
+}
+
+.section-home {
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+.section-home h1 {
+  color: white;
+  padding-bottom: 22px;
+  font-size: 30px;
+}
+
+.bg-questions {
+  background-color: #04113f;
+}
+
+.bg-spins {
+  background-color: blue;
+}
+
+.cartas {
+  width: 350px;
+}
+
+.body-container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  background-color: purple;
+}
+
+.home-banner-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-us-today {
+  border-radius: 15px;
+  background-color: orange;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.start {
+  border-radius: 50%;
+  background-color: violet;
+  padding: 22px;
+  margin-top: 80px;
+  display: flex;
+  border: none;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+}
+
+.safe-support {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1% 15%;
+}
+.safe-support button {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.steps-section {
+  background-color: #04113f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 15px 36px;
+  gap: 50px;
+}
+
+.steps-container {
+  background-color: yellow;
+  width: 50%;
+  border-radius: 15px;
+  padding: 22px;
+  font-size: 18px;
+}
+
+.steps-actions-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.image-containers {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.image-containers div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.depcash {
+  border-right: 1px solid black;
+  padding-right: 22px;
+  border-left: 1px solid black;
+  padding-left: 22px;
+}
+
+.spins-container {
+  display: flex;
+  color: white;
+  max-width: 1200px;
+  gap: 40px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.spins-container div {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.spins-container div img {
+  padding: 1%;
+}
+.spins-container .join-us-today {
+  margin: 20px auto;
+}
+
+.questions {
+  background-color: #04113f;
+  color: white;
+  padding: 22px;
+  display: flex;
+}
+
+.question-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 22px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
+  gap: 10px;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.grid-item {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(18, 18, 207);
+}
+.grid-item h2 {
+  color: yellow;
+  padding: 10px;
+}
+.grid-item p {
+  color: white;
+}
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sct-about {
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+.sct-about h1 {
+  padding-bottom: 30px;
+}
+.sct-about h2 {
+  padding-bottom: 30px;
+}
+
+.sct-rg {
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+.sct-rg h1 {
+  padding-bottom: 30px;
+}
+.sct-rg h2 {
+  padding-bottom: 30px;
+}
+
+.container-articles {
+  display: table-row;
+}
+
+.btn-download {
+  border-radius: 15px;
+  background-color: #9ac5f4;
+  padding: 10px;
+  margin-top: 50px;
+  font: bold;
+}
+
+.blackcards {
+  width: 100%;
+  height: 500px;
+}
+
+.sct-games {
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+.sct-games h2 {
+  padding-bottom: 30px;
+}
+
+.btn-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .menu li a {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+  }
+  .cabecera {
+    width: 100%;
+  }
+  .logo {
+    width: 75px;
+  }
+  .accountbadge {
+    width: 50px;
+  }
+  .body-container {
+    width: 100%;
+  }
+  .cartas {
+    width: 100px;
+  }
+  .monedas {
+    width: 50px;
+  }
+  .join-us-today {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .safe-support {
+    display: none;
+  }
+  .steps-container {
+    width: 80%;
+  }
+  .steps-container h1 {
+    font-size: 12px;
+  }
+  .steps-actions-container {
+    gap: 0;
+  }
+  .steps-actions-container h2 {
+    font-size: 12px;
+  }
+  .steps-actions-container p {
+    font-size: 12px;
+  }
+  .image-containers {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .spins-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .spins-container div h2 {
+    font-size: 15px;
+    padding: 10px;
+  }
+  .spins-container div p {
+    font-size: 13px;
+  }
+  .dices {
+    width: 120px;
+  }
+  .questions {
+    flex-direction: column;
+  }
+  .bg-questions h2 {
+    color: white;
+  }
+  .question-title {
+    font-size: 14px;
+  }
+  .paragraph {
+    font-size: 12px;
+  }
+  .diamond-cards {
+    width: 200px;
+  }
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  .section-home {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-home h2 {
+    font-size: 35px;
+  }
+  .sct-about h1 {
+    font-size: 14px;
+  }
+  .sct-about h2 {
+    font-size: 14px;
+  }
+  .sct-about p {
+    font-size: 13px;
+  }
+  .btn-container {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) {
+  .menu li a {
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+  }
+  .logo {
+    width: 75px;
+  }
+  .accountbadge {
+    width: 40px;
+  }
+  .dices {
+    width: 150px;
+  }
+  .spins-container div h2 {
+    font-size: 25px;
+    padding: 10px;
+  }
+  .questions {
+    flex-direction: column;
+  }
+  .paragraph {
+    font-size: 16px;
+  }
+  .question-title {
+    font-size: 18px;
+  }
+  .maquina-slot {
+    width: 250px;
+  }
+  .queen-card {
+    width: 250px;
+  }
+  .sct-about h1 {
+    font-size: 14px;
+  }
+  .sct-about h2 {
+    font-size: 14px;
+  }
+  .sct-about p {
+    font-size: 13px;
+  }
+}
+@media (min-width: 1024px) {
+  .menu li a {
+    font-size: 12px;
+  }
+  .logo {
+    width: 100px;
+  }
+  .monedas {
+    width: 200px;
+  }
+  .steps-container {
+    width: 80%;
+  }
+  .steps-container h1 {
+    font-size: 12px;
+  }
+  .steps-actions-container {
+    gap: 0;
+  }
+  .steps-actions-container h2 {
+    font-size: 12px;
+  }
+  .steps-actions-container p {
+    font-size: 12px;
+  }
+  .bg-questions h2 {
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

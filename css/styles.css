@@ -77,7 +77,10 @@ body {
 }
 
 .bg-viewed {
-  padding: 5%;
+  padding: 3%;
+}
+.bg-viewed h2 {
+  padding: 20px;
 }
 
 .background-section-games {
@@ -117,6 +120,9 @@ body {
   color: black;
   margin: 0px 22px;
 }
+.menu li a:hover {
+  color: whitesmoke;
+}
 
 .section-home {
   padding-right: 5%;
@@ -155,6 +161,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+.home-banner-buttons button:active {
+  background-color: gray;
+}
 
 .join-us-today {
   border-radius: 15px;
@@ -192,6 +201,9 @@ body {
   padding: 10px;
   color: white;
   font-weight: bold;
+}
+.safe-support button:active {
+  background-color: gray;
 }
 
 .steps-section {
@@ -323,7 +335,10 @@ body {
 }
 
 .container-articles {
-  display: table-row;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
 }
 
 .btn-download {
@@ -331,7 +346,10 @@ body {
   background-color: #9ac5f4;
   padding: 10px;
   margin-top: 50px;
-  font: bold;
+  font: bolder;
+}
+.btn-download:active {
+  background-color: whitesmoke;
 }
 
 .blackcards {
@@ -350,7 +368,7 @@ body {
 }
 
 .btn-container {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
 }
 

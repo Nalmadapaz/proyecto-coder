@@ -82,7 +82,10 @@ body {
 	}
 }
 .bg-viewed {
-	padding: 5%;
+	padding: 3%;
+	h2{
+		padding: 20px;
+	}
 }
 .background-section-games {
 	background-color: $background-color_4;
@@ -118,6 +121,9 @@ body {
 			font-size: 20px;
 			color: $color_2;
 			margin: 0px 22px;
+			&:hover{
+				color: whitesmoke;
+			}
 		}
 	}
 }
@@ -152,6 +158,11 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	button{
+		&:active{
+			background-color: gray;
+		}
+	}
 }
 .join-us-today {
 	border-radius: 15px;
@@ -186,6 +197,9 @@ body {
 		padding: 10px;
 		color: $color_1;
 		font-weight: bold;
+		&:active{
+			background-color: gray;
+		}
 	}
 }
 .steps-section {
@@ -305,14 +319,21 @@ body {
 	}
 }
 .container-articles {
-	display: table-row;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
 }
+
 .btn-download {
 	border-radius: 15px;
 	background-color: $background-color_14;
 	padding: 10px;
 	margin-top: 50px;
-	font: bold;
+	font: bolder;
+	&:active{
+		background-color: whitesmoke;
+	}
 }
 .blackcards {
 	width: 100%;
@@ -328,7 +349,7 @@ body {
 	}
 }
 .btn-container {
-	width: 60%;
+	width: 100%;
 	margin: 0 auto;
 }
 

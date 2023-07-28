@@ -23,6 +23,7 @@ $background-color_14: #9ac5f4;
 	box-sizing: border-box;
 	font-family: $font-family_1;
 }
+
 header {
 	display: block;
 }
@@ -369,19 +370,21 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-	.menu {
-		li {
-			a {
-				font-size: 10px;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				padding: 5px;
+.cabecera {
+		width: 100%;
+		.menu {
+			ul{
+				li {
+					a {
+						font-size: 10px;
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						padding: 5px;
+					}
+				}
 			}
 		}
-	}
-	.cabecera {
-		width: 100%;
 	}
 	.logo {
 		width: 75px;
@@ -486,13 +489,15 @@ body {
 }
 @media (min-width: 768px) {
 	.menu {
-		li {
-			a {
-				font-size: 8px;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				padding: 5px;
+		ul{
+			li {
+				a {
+					font-size: 8px;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					padding: 5px;
+				}
 			}
 		}
 	}

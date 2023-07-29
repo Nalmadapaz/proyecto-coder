@@ -1,3 +1,4 @@
+/* aqui termina index */
 * {
   margin: 0;
   padding: 0;
@@ -37,72 +38,10 @@ body {
   text-align: center;
 }
 
-.header-menu {
-  width: 100%;
-  border: none;
-  margin: 15px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.bg-main {
-  background: #2980B9; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.dealcards {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-}
-
-.background-container {
-  background-color: white;
-}
-
-.background-contact {
-  background-color: white;
-}
-
-.background-games {
-  background-color: #999999;
-}
-
-.bg-contact {
-  background-color: grey;
-  padding: 5%;
-}
-.bg-contact div h2 {
-  padding-bottom: 30px;
-}
-
-.bg-viewed {
-  padding: 3%;
-}
-.bg-viewed h2 {
-  padding: 20px;
-}
-
-.background-section-games {
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
-}
-.background-section-games div h2 {
-  padding-bottom: 30px;
-}
-
 .cabecera {
   background: orange;
   border: 1px solid #999999;
   padding: 20px;
-}
-.cabecera h1 {
-  text-align: left;
 }
 
 .menu {
@@ -126,35 +65,15 @@ body {
   color: whitesmoke;
 }
 
-.section-home {
-  padding-right: 5%;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-bottom: 5%;
-}
-.section-home h1 {
-  color: white;
-  padding-bottom: 22px;
-  font-size: 30px;
-}
-
-.bg-questions {
-  background-color: #04113f;
-}
-
-.bg-spins {
-  background-color: blue;
-}
-
-.cartas {
-  width: 350px;
-}
-
 .body-container {
   display: flex;
   position: relative;
   justify-content: space-between;
   background-color: purple;
+}
+
+.cartas {
+  width: 350px;
 }
 
 .home-banner-buttons {
@@ -232,6 +151,14 @@ body {
   gap: 100px;
 }
 
+.depcash {
+  border-right: 1px solid black;
+  padding-right: 22px;
+  border-left: 1px solid black;
+  padding-left: 22px;
+  font: bolder;
+}
+
 .image-containers {
   display: flex;
   flex-direction: row;
@@ -243,11 +170,20 @@ body {
   position: relative;
 }
 
-.depcash {
-  border-right: 1px solid black;
-  padding-right: 22px;
-  border-left: 1px solid black;
-  padding-left: 22px;
+.section-home {
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+.section-home h2 {
+  color: white;
+  padding-bottom: 22px;
+  font-size: 30px;
+}
+
+.bg-spins {
+  background-color: blue;
 }
 
 .spins-container {
@@ -268,6 +204,10 @@ body {
 }
 .spins-container .join-us-today {
   margin: 20px auto;
+}
+
+.bg-questions {
+  background-color: #04113f;
 }
 
 .questions {
@@ -310,10 +250,57 @@ body {
   height: auto;
 }
 
+.blackcards {
+  width: 100%;
+  height: 500px;
+}
+
 .container-main {
-  background: #2980B9; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #2980B9;
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
+  background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
+}
+
+.sct-rg {
+  padding: 5%;
+}
+.sct-rg h1 {
+  padding-bottom: 30px;
+}
+.sct-rg h2 {
+  padding-bottom: 30px;
+}
+
+.footer {
+  background-color: black;
+}
+
+.btn-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn-download {
+  border-radius: 15px;
+  background-color: #9ac5f4;
+  padding: 10px;
+  margin-top: 50px;
+  font: bolder;
+}
+.btn-download:active {
+  background-color: whitesmoke;
+}
+
+.dealcards {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.bg-main {
+  background: #2980B9;
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
+  background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
 }
 
 .sct-about {
@@ -329,17 +316,23 @@ body {
   padding-bottom: 30px;
 }
 
-.sct-rg {
-  padding-right: 5%;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-bottom: 5%;
+.background-contact {
+  background-color: white;
 }
-.sct-rg h1 {
+
+.bg-contact {
+  background-color: grey;
+  padding: 5%;
+}
+.bg-contact div h2 {
   padding-bottom: 30px;
 }
-.sct-rg h2 {
-  padding-bottom: 30px;
+
+.bg-viewed {
+  padding: 3%;
+}
+.bg-viewed h2 {
+  padding: 20px;
 }
 
 .container-articles {
@@ -349,20 +342,8 @@ body {
   padding: 5px;
 }
 
-.btn-download {
-  border-radius: 15px;
-  background-color: #9ac5f4;
-  padding: 10px;
-  margin-top: 50px;
-  font: bolder;
-}
-.btn-download:active {
-  background-color: whitesmoke;
-}
-
-.blackcards {
-  width: 100%;
-  height: 500px;
+.background-games {
+  background-color: #999999;
 }
 
 .sct-games {
@@ -375,194 +356,199 @@ body {
   padding-bottom: 30px;
 }
 
-.btn-container {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.footer {
+.background-section-games {
   background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.background-section-games div h2 {
+  padding-bottom: 30px;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-  .cabecera {
-    width: 100%;
-  }
-  .cabecera .menu ul li a {
-    font-size: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5px;
-  }
-  .logo {
-    width: 75px;
-  }
-  .accountbadge {
-    width: 50px;
-  }
   .body-container {
-    width: 100%;
+    flex-direction: column;
   }
   .cartas {
-    width: 100px;
+    width: 100%;
   }
-  .monedas {
-    width: 50px;
-  }
-  .join-us-today {
-    font-size: 10px;
-    margin-top: 10px;
-  }
-  .safe-support {
-    display: none;
-  }
-  .steps-container {
-    width: 80%;
-  }
-  .steps-container h1 {
-    font-size: 12px;
-  }
-  .steps-actions-container {
-    gap: 0;
-  }
-  .steps-actions-container h2 {
-    font-size: 12px;
-  }
-  .steps-actions-container p {
-    font-size: 12px;
-  }
-  .image-containers {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  .spins-container {
-    display: flex;
-    flex-direction: column;
-  }
-  .spins-container div h2 {
-    font-size: 15px;
-    padding: 10px;
-  }
-  .spins-container div p {
-    font-size: 13px;
-  }
-  .dices {
-    width: 120px;
-  }
-  .questions {
-    flex-direction: column;
-  }
-  .bg-questions h2 {
-    color: white;
-  }
-  .question-title {
-    font-size: 14px;
-  }
-  .paragraph {
-    font-size: 12px;
-  }
-  .diamond-cards {
-    width: 200px;
-  }
-  .grid-container {
-    grid-template-columns: 1fr;
-  }
-  .section-home {
-    display: flex;
-    flex-direction: column;
-  }
-  .section-home h2 {
-    font-size: 35px;
-  }
-  .sct-about h1 {
-    font-size: 14px;
-  }
-  .sct-about h2 {
-    font-size: 14px;
-  }
-  .sct-about p {
-    font-size: 13px;
-  }
-  .btn-container {
-    width: 60%;
-    margin: 0 auto;
-  }
-}
-@media (min-width: 768px) {
-  .menu ul li a {
-    font-size: 8px;
-    display: flex;
+  .home-banner-buttons {
     flex-direction: column;
     align-items: center;
-    padding: 5px;
   }
-  .logo {
-    width: 75px;
+  .home-banner-buttons button {
+    margin: 10px 0;
   }
-  .accountbadge {
-    width: 40px;
+  .safe-support {
+    position: relative;
+    margin: 10px;
+  }
+  .safe-support button {
+    padding: 8px;
+  }
+  .steps-actions-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .depcash {
+    border: none;
+    padding: 0;
+    margin-bottom: 40px;
+    font: bolder;
+  }
+  .image-containers {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .image-containers div {
+    margin-bottom: 30px;
+  }
+  .bg-spins {
+    padding: 30px 15px;
+  }
+  .spins-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
   }
   .dices {
-    width: 150px;
+    width: 80%;
+    max-width: 200px;
   }
-  .spins-container div h2 {
-    font-size: 25px;
-    padding: 10px;
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .join-us-today {
+    font-size: 18px;
+    padding: 15px 30px;
+  }
+  .bg-questions {
+    padding: 30px 15px;
   }
   .questions {
     flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .question-title {
+    font-size: 20px;
   }
   .paragraph {
     font-size: 16px;
   }
-  .question-title {
-    font-size: 18px;
+  .diamond-cards {
+    width: 80%;
+    max-width: 200px;
   }
-  .maquina-slot {
-    width: 250px;
+  .section-home {
+    padding: 5%;
   }
-  .queen-card {
-    width: 250px;
+  .section-home h2 {
+    font-size: 24px;
   }
-  .sct-about h1 {
-    font-size: 14px;
-  }
-  .sct-about h2 {
-    font-size: 14px;
-  }
-  .sct-about p {
-    font-size: 13px;
+  .grid-container {
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    gap: 5px;
   }
 }
-@media (min-width: 1024px) {
-  .menu li a {
-    font-size: 12px;
+@media (max-width: 768px) {
+  .body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  .logo {
-    width: 100px;
+  .body-container .cartas {
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  .body-container .home-banner-buttons {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .body-container .home-banner-buttons .join-us-today {
+    width: 100%;
+  }
+  .body-container .home-banner-buttons .start {
+    width: 100%;
+    text-align: center;
+  }
+  .body-container .monedas {
+    width: 80%;
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  .body-container .safe-support {
+    flex-direction: column;
+  }
+  .body-container .safe-support button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .depcash {
+    font: bolder;
+  }
+}
+@media (max-width: 1024px) {
+  .cabecera {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar-collapse {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar-nav li {
+    margin-bottom: 10px;
+  }
+  .body-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cartas {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  .home-banner-buttons {
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  .home-banner-buttons button {
+    margin: 10px;
   }
   .monedas {
-    width: 200px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  .safe-support {
+    position: static;
+  }
+  .safe-support button {
+    margin: 5px;
   }
   .steps-container {
     width: 80%;
   }
   .steps-container h1 {
-    font-size: 12px;
-  }
-  .steps-actions-container {
-    gap: 0;
+    font-size: 30px;
   }
   .steps-actions-container h2 {
-    font-size: 12px;
+    font-size: 30px;
   }
-  .steps-actions-container p {
-    font-size: 12px;
-  }
-  .bg-questions h2 {
-    color: white;
+  .questions {
+    flex-direction: column;
   }
 }
 

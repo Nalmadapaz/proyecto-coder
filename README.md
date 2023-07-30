@@ -2,7 +2,7 @@
 
 > Este proyecto fue generado para mi primer curso de desarrollo web en Coderhouse
 
-#ArgenPoker es un sitio web dedicado principalmente al Poker y otros juegos de casino, con el propósito de brindar entretenimiento virtual a los usuarios. Ofrece la posibilidad de disfrutar de una amplia variedad de juegos de casino desde la comodidad de tu casa.
+# ArgenPoker es un sitio web dedicado principalmente al Poker y otros juegos de casino, con el propósito de brindar entretenimiento virtual a los usuarios. Ofrece la posibilidad de disfrutar de una amplia variedad de juegos de casino desde la comodidad de tu casa.
 
 ## Características
 

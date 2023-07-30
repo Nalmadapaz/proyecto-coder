@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+	.body-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.cartas {
+		width: 80%;
+		max-width: 300px;
+		margin-bottom: 20px;
+		}
+		.home-banner-buttons {
+		flex-direction: column;
+		margin-bottom: 20px;
+		.join-us-today {
+			width: 100%;
+		}
+	
+		.start {
+			width: 100%;
+			align-items: center;
+		}
+		}
+	
+		.monedas {
+		width: 80%;
+		max-width: 200px;
+		margin-bottom: 20px;
+		}
+	
+		.safe-support {
+		flex-direction: column;
+	
+		button {
+			width: 100%;
+			margin-bottom: 10px;
+			}
+		}
+	}
+	.depcash{
+		font: bolder;
+	}
+}

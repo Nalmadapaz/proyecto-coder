@@ -1,0 +1,17 @@
+.footer {
+	background-color: $background-color_11;
+}
+.btn-container {
+	width: 100%;
+	margin: 0 auto;
+}
+.btn-download {
+	border-radius: 15px;
+	background-color: $background-color_12;
+	padding: 10px;
+	margin-top: 50px;
+	font: bolder;
+	&:active {
+		background-color: $background-color_13;
+	}
+}

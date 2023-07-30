@@ -1,0 +1,109 @@
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .body-container {
+        flex-direction: column;
+    }
+    .cartas {
+        width: 100%;
+    }
+    .home-banner-buttons {
+        flex-direction: column;
+        align-items: center;
+        button {
+        margin: 10px 0;
+        }
+    }
+    .safe-support {
+        position: relative;
+        margin: 10px;
+        button {
+        padding: 8px;
+        }
+    }
+    .steps-actions-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .depcash {
+        border: none;
+        padding: 0;
+        margin-bottom: 40px;
+        font: bolder;
+    }
+    .image-containers {
+        flex-direction: column;
+        gap: 20px;
+        div {
+        margin-bottom: 30px;
+        }
+    }
+    
+    .bg-spins {
+        padding: 30px 15px;
+    }
+    .spins-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+    .dices {
+        width: 80%;
+        max-width: 200px;
+    }
+        h2 {
+        font-size: 24px;
+    }
+        p {
+        font-size: 16px;
+    }
+    .join-us-today {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+    
+    .bg-questions {
+        padding: 30px 15px;
+    }
+    .questions {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .question-title {
+        font-size: 20px;
+    }
+    .paragraph {
+        font-size: 16px;
+    }
+    .diamond-cards {
+        width: 80%;
+        max-width: 200px;
+    }
+    
+    .section-home {
+        padding: 5%;
+        h2 {
+        font-size: 24px;
+        }
+    }
+    .grid-container {
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+        gap: 5px;
+    }
+    
+    .background-section-games{
+        flex-direction: column;
+        div{
+            width: 100%;
+            margin-bottom: 20px;
+            h2{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+        }
+    }
+    
+    }

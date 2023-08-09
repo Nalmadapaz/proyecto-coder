@@ -290,11 +290,12 @@ body {
 }
 
 .background-contact {
-  background-color: white;
+  background: #2980B9;
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
+  background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
 }
 
 .bg-contact {
-  background-color: grey;
   padding: 5%;
 }
 .bg-contact div h2 {
@@ -304,15 +305,14 @@ body {
 .bg-viewed {
   padding: 3%;
 }
-.bg-viewed h2 {
-  padding: 20px;
-}
 
 .container-articles {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  padding: 5px;
+  gap: 20px;
+  padding-bottom: 20px;
 }
 
 .background-games {
@@ -326,18 +326,6 @@ body {
   padding-bottom: 5%;
 }
 .sct-games h2 {
-  padding-bottom: 30px;
-}
-
-.background-section-games {
-  background-color: black;
-  color: white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 5px;
-}
-.background-section-games div h2 {
   padding-bottom: 30px;
 }
 
@@ -359,6 +347,18 @@ body {
 }
 .btn-download:active {
   background-color: whitesmoke;
+}
+
+.background-section-games {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+}
+.background-section-games div h2 {
+  padding-bottom: 30px;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {

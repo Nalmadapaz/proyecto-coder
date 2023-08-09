@@ -203,10 +203,11 @@
 	}
 }
 .background-contact {
-	background-color: $background-color_14;
+	background: #2980B9;
+	background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
+	background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
 }
 .bg-contact {
-	background-color: $background-color_15;
 	padding: 5%;
 	div {
 		h2 {
@@ -216,15 +217,14 @@
 }
 .bg-viewed {
 	padding: 3%;
-	h2 {
-		padding: 20px;
-	}
 }
 .container-articles {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	justify-content: center;
 	align-items: center;
-	padding: 5px;
+	gap: 20px;
+	padding-bottom: 20px;
 }
 .background-games {
 	background-color: $background-color_16;
@@ -238,19 +238,7 @@
 		padding-bottom: 30px;
 	}
 }
-.background-section-games {
-	background-color: $background-color_11;
-	color: $color_3;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	padding: 5px;
-	div {
-		h2 {
-			padding-bottom: 30px;
-		}
-	}
-}
+
 
 
 

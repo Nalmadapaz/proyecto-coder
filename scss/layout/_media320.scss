@@ -3,6 +3,9 @@
     .body-container {
         flex-direction: column;
     }
+    .start{
+        justify-content: center;
+    }
     .cartas {
         width: 100%;
     }
@@ -106,4 +109,12 @@
         }
     }
     
+    .black-card{
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
+    .container-btn{
+        flex-direction: column;
+        padding: 5px;
+    }
     }

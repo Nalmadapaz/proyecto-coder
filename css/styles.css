@@ -116,7 +116,7 @@ body {
 .safe-support {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 5%;
   margin: 1% 15%;
 }
 .safe-support button {
@@ -259,9 +259,9 @@ body {
 }
 
 .container-main, .bg-main {
-  background: #2980B9;
-  background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
-  background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
+  background: #2980b9;
+  background: -webkit-linear-gradient(to bottom, #ffffff, #6dd5fa, #2980b9);
+  background: linear-gradient(to bottom, #ffffff, #6dd5fa, #2980b9);
 }
 
 .sct-rg {
@@ -294,9 +294,9 @@ body {
 }
 
 .background-contact {
-  background: #2980B9;
-  background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
-  background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
+  background: #2980b9;
+  background: -webkit-linear-gradient(to bottom, #ffffff, #6dd5fa, #2980b9);
+  background: linear-gradient(to bottom, #ffffff, #6dd5fa, #2980b9);
 }
 
 .bg-contact {
@@ -343,9 +343,9 @@ body {
 }
 
 .background-games {
-  background: #2980B9;
-  background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
-  background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
+  background: #2980b9;
+  background: -webkit-linear-gradient(to bottom, #ffffff, #6dd5fa, #2980b9);
+  background: linear-gradient(to bottom, #ffffff, #6dd5fa, #2980b9);
 }
 
 .sct-games {
@@ -480,7 +480,7 @@ body {
     font-size: 24px;
   }
   .grid-container {
-    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    grid-template-columns: repeat(1, 1fr);
     gap: 5px;
   }
   .background-section-games {
@@ -597,6 +597,60 @@ body {
   }
   .questions {
     flex-direction: column;
+  }
+  .black-card {
+    width: 100%;
+  }
+  .casino {
+    display: none;
+  }
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .grid-item {
+    text-align: center;
+  }
+  .grid-item img.maquina-slot {
+    max-width: 100%;
+    height: auto;
+  }
+  .steps-actions-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .steps-actions-container .depcash {
+    border-right: none;
+    padding-right: 0;
+    border-left: none;
+    padding-left: 0;
+    text-align: center;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .black-card {
+    width: 100%;
+  }
+  .menu li a {
+    font-size: 17px;
+  }
+  .logo {
+    width: 150px;
+  }
+  .safe-support {
+    display: none;
+  }
+  .steps-actions-container {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .steps-actions-container .depcash {
+    border-right: none;
+    padding-right: 0;
+    border-left: none;
+    padding-left: 0;
+    text-align: center;
   }
 }
 

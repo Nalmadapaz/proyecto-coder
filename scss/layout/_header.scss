@@ -1,55 +1,55 @@
 header {
-	display: block;
+  display: block;
 }
 
 .menu {
-	background: orange;
-	padding: 5px 15px;
-	text-align: center;
-	li {
-		list-style: none;
-		padding: 5px;
-		font: bold 14px verdana;
-		display: inline-block;
-		a {
-			text-decoration: none;
-			font-size: 20px;
-			color: $color_1;
-			margin: 0px 22px;
-			&:hover {
-				color: $color_2;
-			}
-		}
-	}
+  background: orange;
+  padding: 5px 15px;
+  text-align: center;
+  li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+    a {
+      text-decoration: none;
+      font-size: 20px;
+      color: $color_1;
+      margin: 0px 22px;
+      &:hover {
+        color: $color_2;
+      }
+    }
+  }
 }
 
 section {
-	display: block;
+  display: block;
 }
 footer {
-	display: block;
+  display: block;
 }
 aside {
-	display: block;
+  display: block;
 }
 nav {
-	display: block;
+  display: block;
 }
 article {
-	display: block;
+  display: block;
 }
 hgroup {
-	display: block;
+  display: block;
 }
 body {
-	text-align: center;
+  text-align: center;
 }
 .cabecera {
-	background: orange;
-	border: 1px solid #999999;
-	padding: 20px;
+  background: orange;
+  border: 1px solid #999999;
+  padding: 20px;
 }
 
-.navbar{
-	padding: 0;
+.navbar {
+  padding: 0;
 }

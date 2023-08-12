@@ -1,0 +1,31 @@
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .black-card {
+    width: 100%;
+  }
+  .menu {
+    li {
+      a {
+        font-size: 17px;
+      }
+    }
+  }
+  .logo {
+    width: 150px;
+  }
+  .safe-support {
+    display: none;
+  }
+  .steps-actions-container {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+    .depcash {
+      border-right: none;
+      padding-right: 0;
+      border-left: none;
+      padding-left: 0;
+      text-align: center;
+    }
+  }
+}

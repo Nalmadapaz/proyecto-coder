@@ -1,60 +1,89 @@
 @media (max-width: 1024px) {
-	.cabecera {
-		flex-direction: column;
-		align-items: center;
-	}
-	
-	.navbar-collapse {
-		width: 100%; 
-		margin-top: 20px;
-	}
-	
-	.navbar-nav {
-		flex-direction: column;
-		align-items: center;
-		li {
-		margin-bottom: 10px; 
-		}
-	}
-	.body-container {
-		flex-direction: column; 
-		align-items: center; 
-	}
-	
-	.cartas {
-		width: 100%; 
-		max-width: 300px;
-		margin-bottom: 20px;
-	}
-	
-	.home-banner-buttons {
-		flex-direction: row; 
-		margin-top: 20px;
-		button {
-			margin: 10px; 
-		}
-	}
-	.monedas {
-		width: 100%; 
-		max-width: 300px;
-		margin-bottom: 20px;
-	}
-	.safe-support {
-		position: static; 
-		button {
-			margin: 5px;
-		}
-	}
-	.steps-container{
-		width: 80%;
-		h1{
-			font-size: 30px;
-		}
-	}
-	.steps-actions-container h2{
-		font-size:30px ;
-	}
-	.questions{
-		flex-direction: column;
-	}
+  .cabecera {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-collapse {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    li {
+      margin-bottom: 10px;
+    }
+  }
+  .body-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cartas {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .home-banner-buttons {
+    flex-direction: row;
+    margin-top: 20px;
+    button {
+      margin: 10px;
+    }
+  }
+  .monedas {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  .safe-support {
+    position: static;
+    button {
+      margin: 5px;
+    }
+  }
+  .steps-container {
+    width: 80%;
+    h1 {
+      font-size: 30px;
+    }
+  }
+  .steps-actions-container h2 {
+    font-size: 30px;
+  }
+  .questions {
+    flex-direction: column;
+  }
+  .black-card {
+    width: 100%;
+  }
+  .casino {
+    display: none;
+  }
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .grid-item {
+    text-align: center;
+    img.maquina-slot {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .steps-actions-container {
+    flex-direction: column;
+    align-items: center;
+
+    .depcash {
+      border-right: none;
+      padding-right: 0;
+      border-left: none;
+      padding-left: 0;
+      text-align: center;
+    }
+  }
 }

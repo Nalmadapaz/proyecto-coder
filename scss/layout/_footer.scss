@@ -1,32 +1,32 @@
 .footer {
-	background-color: $background-color_11;
+  background-color: $background-color_11;
 }
 .btn-container {
-	width: 100%;
-	margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
 }
 .btn-download {
-	border-radius: 15px;
-	background-color: $background-color_12;
-	padding: 10px;
-	margin-top: 50px;
-	margin-bottom: 15px;
-	font: bolder;
-	&:active {
-		background-color: $background-color_13;
-	}
+  border-radius: 15px;
+  background-color: $background-color_12;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font: bolder;
+  &:active {
+    background-color: $background-color_13;
+  }
 }
 
 .background-section-games {
-	background-color: $background-color_11;
-	color: $color_3;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	padding: 5px;
-	div {
-		h2 {
-			padding-bottom: 30px;
-		}
-	}
+  background-color: $background-color_11;
+  color: $color_3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+  div {
+    h2 {
+      padding-bottom: 30px;
+    }
+  }
 }
